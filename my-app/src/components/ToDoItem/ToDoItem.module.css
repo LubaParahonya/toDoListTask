@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.main{
+    .boxItem{
+        box-shadow: 0px 5px 10px 0px rgba(169, 168, 168, 0.5);
+        padding: 5px;
+        border-radius: 8px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transition: all ease 500ms;
+        background: rgb(192, 188, 188);
+                &:hover{
+                    transform: scale(1.05);
+                    box-shadow: 0px 5px 10px 0px rgba(88, 84, 196, 0.5);
+                }
+        .buttonDelete{
+            border: none;
+            background: rgb(192, 188, 188);
+            .delete{
+                width: 30px;
+                height: 30px;
+                transition: all ease 500ms;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .name{
+            text-decoration: line-through red;
+            font-family: "Dancing Script", cursive;
+            font-style: normal;
+            font-optical-sizing: auto;
+        }
+        .namefalse{
+            text-decoration: none;
+            font-family: "Dancing Script", cursive;
+            font-style: normal;
+            font-optical-sizing: auto;
+        }
+    }
+}
